@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-family: 'Georgia', serif;
 }
+.style{
 /*Estilos generales para pantallas grandes */
+}
 body {
     background-color: #faf3e0;
     color: #4a3d2f;
