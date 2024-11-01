@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+Indica el tipo de documento. Especifica que este archivo es un documento HTML5.
+Abre la estructura del documento HTML y define el idioma como español (lang="es").
+<head> ... </head>
+Contiene meta-información de la página, como el título y la vinculación de estilos.
+<meta charset="UTF-8">
+Especifica la codificación de caracteres como UTF-8, para que se puedan mostrar correctamente acentos y caracteres especiales.
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+Permite que la página se adapte a dispositivos móviles, ajustando el ancho de la pantalla automáticamente.
+
+<title>Comidas Artesanales de Huacaraje</title>
+Título de la página, que aparece en la pestaña del navegador.
+
+<link rel="stylesheet" href="styles.css">
+Conecta el archivo CSS externo (styles.css) para aplicar estilos.
+
+<body> ... </body>
+Contiene todo el contenido visible en la página (encabezado, recetas y pie de página).
+Encabezado
+
+<header> ... </header>
+Define un bloque para el encabezado de la página.
+
+<h1>Comidas Artesanales de Huacaraje</h1>
+Título principal que se muestra en la parte superior.
+
+<p>Recetas tradicionales con un toque moderno</p>
+Descripción breve debajo del título principal.
+Receta
+
+<main> ... </main>
+Contenedor principal del contenido central de la página (las recetas).
+
+<section class="recipe"> ... </section>
+Cada receta está dentro de una sección con la clase recipe, para que se le pueda aplicar estilos específicos.
+
+<img src="imagenes/sopa_huacaraje.jpg" alt="Sopa típica de Huacaraje">
+Muestra la imagen de la receta.
+El atributo src indica la ubicación de la imagen.
+El atributo alt proporciona una descripción alternativa en caso de que la imagen no se cargue.
+
+<h2>Sopa Típica de Huacaraje</h2>
+Título de la receta.
+
+<h3>Ingredientes:</h3>
+<ul> ... </ul>
+Sección de ingredientes. El contenido está en una lista no ordenada (<ul>).
+
+<li>500 g de carne de res</li>
+Cada ingrediente se muestra dentro de un <li> (elemento de lista).
+
+<h3>Preparación:</h3>
+<ol> ... </ol>
+Sección de pasos de preparación. Aquí usamos una lista ordenada (<ol>) para indicar que el orden de los pasos es importante.
+
+<li>Hervir la carne con las especias durante 1 hora.</li>
+Cada paso de preparación se representa en un <li> (elemento de lista).
+Pie de página
+
+<footer> ... </footer>
+Sección del pie de página, donde se coloca información de derechos reservados.
+
+<p>&copy; 2024 Comidas Artesanales de Huacaraje. Todos los derechos reservados.</p>
+Muestra un mensaje de copyright con el símbolo ©.

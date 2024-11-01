@@ -1,0 +1,68 @@
+css
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', serif;
+}
+Resetea márgenes y padding predeterminados de todos los elementos (*).
+Ajusta el box-sizing para evitar problemas de tamaño.
+Define la fuente principal como Georgia, con respaldo a fuentes serif.
+body {
+    background-color: #faf3e0;
+    color: #4a3d2f;
+}
+Define el fondo con un color claro tipo beige.
+Configura el color del texto en un tono marrón oscuro.
+header {
+    text-align: center;
+    background-color: #c9a66b;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+Alinea el texto al centro del encabezado.
+Agrega un fondo marrón claro y relleno interno (padding).
+Aplica una sombra sutil al fondo.
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+Aumenta el tamaño del título y le agrega espacio debajo.
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+}
+Usa flexbox para alinear las recetas verticalmente.
+Crea espacio entre las recetas con gap: 30px.
+.recipe {
+    max-width: 800px;
+    background-color: #fff5e1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+Limita el ancho máximo de las recetas.
+Fondo color crema para un aspecto limpio.
+Bordes redondeados y sombra suave para darle un aspecto moderno.
+.recipe img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+Imagenes adaptables al ancho del contenedor.
+Bordes redondeados para suavizar el diseño.
+footer {
+    text-align: center;
+    background-color: #c9a66b;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+Pie de página fijo en la parte inferior de la pantalla.
+Alinea el texto al centro y agrega un fondo marrón claro.
